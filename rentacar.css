@@ -1,0 +1,41 @@
+﻿#warpper {
+width:100%;
+margin:auto; 
+}
+
+   table
+        {
+            font-family: Calibri;	
+        }      
+       
+        thead th:first-child
+        {
+            width: 100px;
+           
+        }
+        
+        thead th:nth-child(2)
+        {
+            width: 200px;
+        }
+        
+        thead tr
+        {
+            background-color: Silver;
+        }
+        
+        tbody tr:nth-of-type(even)	
+        {
+            background-color: Silver;
+        }
+        
+        tbody td:nth-child(n+3)
+        {
+            text-align: center;	
+        }      
+        
+        thead th:nth-child(-n+2), tbody th
+        {
+            text-align: left;
+        }    
+          

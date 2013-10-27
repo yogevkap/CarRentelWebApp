@@ -1,0 +1,64 @@
+﻿hgroup {
+    text-align:center;
+}
+
+#righttitle {
+    color:fuchsia;
+    background-color:orange;
+    box-shadow:2px 2px 20px inset;
+    -webkit-transform:rotate(-45deg);
+    -moz-transform:rotate(-45deg);
+    -ms-transform:rotate(-45deg);
+    position:absolute;
+    top:50px;
+    left:-120px;
+    padding:0px 150px;
+    text-align:center;
+}
+
+#warpper {
+    width:800px;
+    margin:auto;
+}
+
+nav{
+    width:25%;
+   float:left;
+}
+
+    nav a {
+        display:block;
+        border-bottom:5px solid red;
+        padding: 10px;
+        text-decoration:none;
+        font-weight:bold;
+        margin: 5px;
+    }
+
+        nav a:hover {
+            color:white;
+            background-color:yellowgreen;
+            text-decoration:underline;
+        }
+
+section {
+    width:50%;
+    float:left;
+}
+
+article {
+    font-size:20px;
+    margin: 10px;
+    padding: 10px;
+    text-align:center;
+}
+
+aside {
+    width:25%;
+    float:left;
+}
+
+footer {
+    clear:both;
+    text-align:center;
+}

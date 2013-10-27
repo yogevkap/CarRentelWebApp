@@ -1,0 +1,25 @@
+﻿body {
+    color:blue;
+}
+
+#warpper {
+width:100%;
+margin:auto;
+}
+
+#mapContainer {
+    height:500px;
+    width:45%;
+    border:10px solid black;
+    float:left;
+}
+
+#routes {
+    width:50%;
+    background-color:white;
+    float:left;
+}
+
+#clear {
+    clear:both;
+    }

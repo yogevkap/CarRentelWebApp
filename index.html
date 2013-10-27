@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js" ></script>
+    <script src="scripts/mobile.js"></script>
+    <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+    
+    <script>
+        $(function () {
+            if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                window.document.location.href = "mobile.html";
+            } else {
+                window.document.location.href = "mainpage.html";
+            }        
+        })
+    </script>
+</head>
+<body>
+
+        <!-- Home Page -->
+    <div data-role="page" id="home">
+        <div data-role="header"><h1>Car Rentel</h1></div>
+        <div data-role="content">
+            <h3>Do you wish serf in Mobile website or Normal website?</h3>
+            <ul data-role="listview" data-inset="true">
+                <li><a href="mobile.html" rel="external">Mobile Phone</a></li>
+                <li><a href="mainpage.html" rel="external">Normal Website</a></li>
+            </ul>
+        </div>
+        <div data-role="footer" data-position="fixed"><h1>Menu</h1></div>
+    </div>
+
+</body>
+</html>

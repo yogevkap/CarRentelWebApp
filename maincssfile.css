@@ -1,0 +1,8 @@
+﻿body {
+    background-image:url(images/background1.jpg);
+    color:white;
+}
+
+a:visited {
+    color:aqua;
+}
